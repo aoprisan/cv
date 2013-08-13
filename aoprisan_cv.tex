@@ -1,0 +1,136 @@
+\documentclass[helvetica,narrow,noflag,nologo]{europecv/europecv}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,top=1.5cm,left=1.5cm,right=1.5cm,bottom=2.5cm]{geometry}
+\usepackage{ifpdf}
+\usepackage[english]{babel}
+\usepackage{url}
+\usepackage{color}
+\usepackage[colorlinks=true,hidelinks]{hyperref}
+\ifpdf
+    \usepackage[pdftex]{graphicx}
+\else
+     \usepackage{graphicx}
+\fi
+
+\definecolor{light-gray}{gray}{0.85}
+
+\def\ecv@kern{\kern1.5pt}
+\renewcommand{\ttdefault}{phv} % Uses Helvetica instead of fixed width font
+\renewcommand{\ecvtitle}{\Large\textbf{\textsc{C\ecv@kern u\ecv@kern 
+r\ecv@kern r\ecv@kern i\ecv@kern c\ecv@kern u\ecv@kern l\ecv@kern 
+u\ecv@kern m~~v\ecv@kern i\ecv@kern t\ecv@kern a\ecv@kern e}}}
+
+\ecvlastname{Oprisan}
+\ecvfirstname{Andrei}
+\ecvaddress{str Magura, nr 24, 550317, Sibiu, jud Sibiu, Romania}
+\ecvtelephone{+40 748 75 75 95}
+\ecvemail{\url{aoprisan@gmail.com}}
+%%\ecvnationality{Russian}
+\ecvdateofbirth{April 17, 1982}
+\ecvpicture[height=3cm]{photo/photo}
+\ecvbeforepicture{\raggedright}
+
+\begin{document}
+\selectlanguage{english}
+
+\begin{europecv}
+\ecvpersonalinfo
+
+%%%%%%%%%%%%%%%%%% Personal skills %%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ecvsection{\textnormal{Personal skills and competences}}
+
+\ecvitem{\small\textsc{{\color{light-gray}Skills and experience}}}{
+  I have 11 years of experience in software industry and academia, with 4 years in the data security field, 
+  acting as product manager, software developer and architect.
+}
+\ecvitem{}{
+  In the last several years I have been working on the development of Business Intelligence SaaS applications. I have been handling a variety of 
+  technical tasks ranging from back-end services architecture and implementation using functional and object-oriented programming
+  to multi-dimensional queries (MDX), databases and OLAP cubes configuration, from developing front-end GUI to 
+  integration strategies with different third party service providers: REST and SOAP, OAuth 1.0a and 2.0, JSON and XML.
+}
+\ecvitem{}{Additional information can be found in my LinkedIn profile}
+\ecvitem{}{{\url{http://www.linkedin.com/in/aoprisan}}}
+%\ecvitem*{}{}
+%\ecvitem*{Internet technologies}{}
+%\ecvitem*{Databases}{}
+\ecvitem{\small\textsc{{\color{light-gray}Mother tongue}}}{Romanian}
+\ecvitem{\small\textsc{{\color{light-gray}Other languages}}}{English (advanced)}
+
+%%%%%%%%%%%%%%%%%% Additional Information %%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\newpage
+\ecvsection{\textnormal{Additional information}}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Personal interests}}}{Literature, jogging, hiking, traveling, programming languages}
+
+%%%%%%%%%%%%%%%%%% Education %%%%%%%%%%%%%%%%%%%%%%%%%
+%\ecvitem[30pt]{}{}
+\ecvsection{\textnormal{Education}}\nopagebreak
+
+\ecvitem{\small\textsc{{\color{light-gray}Title of qualification awarded}}}{\textbf{Master of Science in Computer Science}}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Dates}}}{September 2006--September 2008}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Organization}}}{Department of Computer Science, Faculty of Science, University of Joensuu, Joensuu, Finland}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Title of graduate work}}}{\guillemotleft Aspect Oriented Implementation of Design Patterns using Metadata \guillemotright}\nopagebreak
+\ecvitem[20pt]{}{{\url{ftp://cs.joensuu.fi/pub/Theses/2008_MSc_Oprisan_Andrei.pdf}}}
+
+\ecvitem{\small\textsc{{\color{light-gray}Title of qualification awarded}}}{\textbf{Diploma Engineer, Computer Engineering}}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Dates}}}{September 2001--June 2006}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Organization}}}{Universitatea Tehnică „Gh. Asachi” din Iași}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Title of graduate work}}}{\guillemotleft Web-based E-Learning platform\guillemotright}
+
+
+%%%%%%%%%%%%%%%%%% Work Experience %%%%%%%%%%%%%%%%%%%%%%%%%
+%\ecvitem[30pt]{}{}
+\ecvsection{\textnormal{Work experience}}
+
+\ecvitem{\small\textsc{{\color{light-gray}Occupation or position held}}}{\textbf{Software Architect and CTO, Co-Founder}}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Dates}}}{December 2011--Present Time}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Name and address of employer}}}{Smeebi Ltd., Espoo and Joensuu, Finland}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Type of business or sector}}}{Software Development of Business Intelligence Systems}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Main activities and responsibilities}}}{- Software project management, design and development using agile techniques, functional and object-oriented programming}\nopagebreak
+\ecvitem{}{ - Technologies evaluation and business development}\nopagebreak
+\ecvitem{}{ - Backe-end architecture and development}\nopagebreak
+\ecvitem{}{ - Integration strategies with different service providers: REST and SOAP WS, OAuth 1.0a and 2.0, JSON and XML}\nopagebreak
+\ecvitem{}{ - Working with remote teams}\nopagebreak
+\ecvitem{}{ - Test Driven Development: Specs2}\nopagebreak
+\ecvitem{}{ - OLAP cubes configuration and data transformation routines}\nopagebreak
+\ecvitem[20pt]{}{ - Development primarily with Scala, Clojure/ClojureScript, JavaScript, Postfgresql, MySql, Mondrian, MDX, Play 2.x, SBT, Github, Heroku on GNU/Linux, Windows 7}
+
+\ecvitem{\small\textsc{{\color{light-gray}Occupation or position held}}}{\textbf{Technical Consultant}}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Dates}}}{December 2011--Present Time}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Name and address of employer}}}{Obsidian Innovations Ltd., Espoo, Finland}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Type of business or sector}}}{Software Development and Consultancy}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Main activities and responsibilities}}}{ - Design and development of a financial analysis application}\nopagebreak
+\ecvitem{}{ - Technology evaluation, business development, project planning}\nopagebreak
+\ecvitem{}{ - Back-end architecture and development}\nopagebreak
+\ecvitem{}{ - Developing dashboards and reports for daily trading}\nopagebreak
+\ecvitem{}{ - Object-oriented programming, functional programming, software architecture, Test Driven Development, web development, cloud computing}\nopagebreak
+\ecvitem[20pt]{}{ - Development primarily with Scala, JavaFX, Java, Clojure, JavaScript, Maven, JasperReports, Talend ETL, SBT, Github on GNU/Linux, Windows 7}
+
+\ecvitem{\small\textsc{{\color{light-gray}Occupation or position held}}}{\textbf{Technical Product Manager}}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Dates}}}{March 2011--December 2011}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Name and address of employer}}}{Blancco Ltd., Helsinki and Joensuu, Finland}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Type of business or sector}}}{Development, distribution and maintenance of data destruction software systems}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Main activities and responsibilities}}}{ - Development of data destruction application}\nopagebreak
+\ecvitem{}{ - Involvement in the gain of Data Security top certificates}\nopagebreak
+\ecvitem{}{ - Working with remote development teams}\nopagebreak
+\ecvitem[20pt]{}{ - Development primarily with C++, Qt framework, GNU tool-chain, SVN, Trac}
+
+
+\ecvitem{\small\textsc{{\color{light-gray}Occupation or position held}}}{\textbf{Senior Software Engineer / Software Engineer}}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Dates}}}{June 2007--February 2011}\nopagebreak
+\ecvitem{\small\textsc{{\color{light-gray}Main activities and responsibilities}}}{- Blancco Data Cleaner design and development}\nopagebreak
+\ecvitem{}{ - Design and development of data destruction application (hardware communication, data destruction engine, remote API, graphical user interface)}\nopagebreak
+\ecvitem{}{ - Object-oriented programming, architecture design, Test Driven Development, Continuous Integration}\nopagebreak
+\ecvitem{}{ - Agile development using Scrum}\nopagebreak
+\ecvitem{}{ - Enabling the adoption of Test Driven Development practices in the company}\nopagebreak
+\ecvitem{}{ - Bringing latest industry trends in the product development process}\nopagebreak
+\ecvitem{}{ - Working with remote development teams}\nopagebreak
+\ecvitem[20pt]{}{ - Development primarily with C, CVS, GNU tool-chain, Valgrind, Bash, Emacs, Linux Kernel 2.4-2.6, C++, Qt framework, GNU tool-chain, SVN, Trac}
+
+
+\end{europecv}
+\end{document}
+
+
